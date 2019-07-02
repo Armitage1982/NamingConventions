@@ -26,17 +26,20 @@ Basically use PascalCase everywhere except for parameters, local variable and Pr
 
 ___
 
+
 ## Why not using _underscore ?
 
 ![Alt text](/asset/underscore.png?raw=true "Why not using _underscore")
 
 ___
 
+
 ## How about Constructor then ?
 
 ![Alt text](/asset/constructor.png?raw=true "About Constructor")
 
 ___
+
 
 ## What about Var ?
 

@@ -6,7 +6,7 @@ ___
 
 | Object Name               | Notation   | Example                                                                              |
 |:--------------------------|:-----------|--------------------------------------------------------------------------------------
-| Namespace                 | PascalCase | <span style="color:blue">namespace</span> System.Security { ... } |
+| Namespace                 | PascalCase | ```csharp namespace System.Security { ... } |
 | Class                     | PascalCase | public class StreamReader { ... } |
 | Constructor               | PascalCase | public class Person { public Person(string lastName, string firstName) { ... } } |
 | Interface                 | PascalCase | public interface IEnumerable { ... } |

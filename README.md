@@ -8,7 +8,7 @@ ___
 |:--------------------------|:-----------|--------------------------------------------------------------------------------------
 | Namespace                 | PascalCase | ```namespace System.Security { ... }``` |
 | Class                     | PascalCase | ```public class StreamReader { ... }``` |
-| Constructor               | PascalCase | ```public class Person { public Person(string lastName, string firstName) { ... } }``` |
+| Constructor               | PascalCase | ```public class Person { public Person(string lastName, string firstName) { ... }}``` |
 | Interface                 | PascalCase | ```public interface IEnumerable { ... }``` |
 | Method                    | PascalCase | ```public class Object { public virtual string ToString(); }``` |
 | Constants                 | PascalCase | ```public const int months = 12;``` |

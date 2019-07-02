@@ -1,6 +1,6 @@
 # C# Naming Conventions
 
-Based on Microsoft documentation [Capitalization Conventions | Microsoft Docs](https://docs.microsoft.com/en-us/dotnet/standard/design-guidelines/capitalization-conventions) & Hr Rony [Article on C# Corner](https://www.c-sharpcorner.com/article/stop-use-var-everywhere-and-think-before-use-underscore-with-private-variable-in/) 
+Based on Microsoft documentation [Capitalization Conventions](https://docs.microsoft.com/en-us/dotnet/standard/design-guidelines/capitalization-conventions) & Hr Rony [Article on C# Corner](https://www.c-sharpcorner.com/article/stop-use-var-everywhere-and-think-before-use-underscore-with-private-variable-in/) 
 
 ___
 
@@ -22,7 +22,8 @@ ___
 | **Local variable**        | **camelCase**  | public class Object { public Do() { int index = 0; } } |
 
 Basically use PascalCase everywhere except for parameters, local variable and Private Field.
-**Private Field** is subject to many interpretations but I find this solution elegant and it works well with Visual Studio encapsulation helper so I adopted it
+
+**Private Field** is subject to many interpretations but I find this solution elegant and it works well with the Visual Studio encapsulation helper so I adopted it
 
 ___
 
@@ -44,7 +45,9 @@ ___
 ## What about Var ?
 
 I am also not inclined to use var outside LINQ and anonymous types
+
 ![Alt text](/asset/vargood.png?raw=true "Good use of var")
 
 'var' should not be used in simple declarations, as shown below:
+
 ![Alt text](/asset/varbad.png?raw=true "Bad use of var")

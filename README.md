@@ -6,14 +6,15 @@ ___
 
 | Object Name               | Notation   | Example                                                                              |
 |:--------------------------|:-----------|--------------------------------------------------------------------------------------
-| Namespace                 | PascalCase | namespace System.Security { ... } |
+| Namespace                 | PascalCase | <span style="color:blue">namespace</span> System.Security { ... } |
 | Class                     | PascalCase | public class StreamReader { ... } |
 | Constructor               | PascalCase | public class Person { public Person(string lastName, string firstName) { ... } } |
 | Interface                 | PascalCase | public interface IEnumerable { ... } |
 | Method                    | PascalCase | public class Object { public virtual string ToString(); } |
 | Constants                 | PascalCase | public const int months = 12; |
 | struct                    | PascalCase | public struct Coords { ... } |
-| Properties                | PascalCase | public string Name { get => name; } |
+| Property                  | PascalCase | public string Name { get => name; } |
+| Event                     | PascalCase | public class Process { public event EventHandler Exited; } |
 | Delegate                  | PascalCase | public delegate void ProcessBookDelegate(Book book); |
 | Enum value                | PascalCase | public enum FileMode { Alpha, Beta, Gamma } |
 | Public Field              | PascalCase | public string Day; |

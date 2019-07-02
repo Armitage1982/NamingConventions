@@ -2,6 +2,8 @@
 
 Based on Microsoft documentation [Capitalization Conventions | Microsoft Docs](https://docs.microsoft.com/en-us/dotnet/standard/design-guidelines/capitalization-conventions) & Hr Rony [Article on C# Corner](https://www.c-sharpcorner.com/article/stop-use-var-everywhere-and-think-before-use-underscore-with-private-variable-in/) 
 
+___
+
 | Object Name               | Notation   | Example                                                                              |
 |:--------------------------|:-----------|--------------------------------------------------------------------------------------
 | Namespace                 | PascalCase | namespace System.Security { ... } |
@@ -22,13 +24,19 @@ Based on Microsoft documentation [Capitalization Conventions | Microsoft Docs](h
 Basically use PascalCase everywhere except for parameters, local variable and Private Field.
 **Private Field** is subject to many interpretations but I find this solution elegant and it works well with Visual Studio encapsulation helper so I adopted it
 
+___
+
 ## Why not using _underscore ?
 
 ![Alt text](/asset/underscore.png?raw=true "Why not using _underscore")
 
+___
+
 ## How about Constructor then ?
 
 ![Alt text](/asset/constructor.png?raw=true "About Constructor")
+
+___
 
 ## What about Var ?
 

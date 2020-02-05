@@ -11,7 +11,7 @@ ___
 | Constructor               | PascalCase | ```public class Person { public Person(string lastName, string firstName) { ... }}``` |
 | Interface                 | PascalCase | ```public interface IEnumerable { ... }``` |
 | Method                    | PascalCase | ```public class Object { public virtual string ToString(); }``` |
-| Constants                 | PascalCase | ```public const int months = 12;``` |
+| Constants                 | PascalCase | ```public const int Months = 12;``` |
 | struct                    | PascalCase | ```public struct Coords { ... }``` |
 | Property                  | PascalCase | ```public string Name { get => name; }``` |
 | Event                     | PascalCase | ```public class Process { public event EventHandler Exited; }``` |
